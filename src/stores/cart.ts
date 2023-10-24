@@ -17,7 +17,7 @@ export function removeItemFromCart (itemId: number) {
     $cart.setKey(itemId, undefined);
 }
 
-export const sustotal = computed($cart, (entries) => {
+export const subtotal = computed($cart, (entries) => {
     let subtotal = 0;
 
     Object.values(entries).forEach((entry) => {
