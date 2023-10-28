@@ -68,7 +68,6 @@ export const Cart = () => {
                     <p class={ styles. shipping}> 
                         <span class={styles. label}>Shipping:</span>{' '}
                         <del>$10.00</del>
-                        <ins>FREE</ins>
                     </p>
 
                     <p class={styles.total}> 
