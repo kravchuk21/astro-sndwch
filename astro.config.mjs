@@ -5,7 +5,7 @@ import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://astro-frontend-masters.netlify-kravchuk.app',
+	site: 'https://astro-frontend-masters-kravchuk.netlify.app',
 	output: 'hybrid',
 	experimental: {
 		hybridOutput: true,
